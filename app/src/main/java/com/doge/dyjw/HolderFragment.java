@@ -1,7 +1,7 @@
 package com.doge.dyjw;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
+import androidx.fragment.app.Fragment;
 
 import com.doge.dyjw.jiaowu.JiaowuSystemFragment;
 import com.doge.dyjw.news.DongyouNewsFragment;

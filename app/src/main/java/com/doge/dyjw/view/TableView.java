@@ -1,7 +1,7 @@
 package com.doge.dyjw.view;
 
 import android.content.Context;
-import android.support.v7.widget.GridLayout;
+import 	androidx.gridlayout.widget.GridLayout;
 import android.text.Html;
 import android.text.method.LinkMovementMethod;
 import android.util.TypedValue;

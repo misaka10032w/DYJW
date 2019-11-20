@@ -4,10 +4,10 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.view.MenuItemCompat;
-import android.support.v7.app.ActionBarActivity;
-import android.support.v7.widget.Toolbar;
+import androidx.fragment.app.Fragment;
+import androidx.core.view.MenuItemCompat;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -24,7 +24,7 @@ import com.doge.dyjw.news.DownloadFragment;
 import com.doge.dyjw.news.NewsFragment;
 import com.doge.dyjw.trade.PubItemFragment;
 
-public class ContainerActivity extends ActionBarActivity {
+public class ContainerActivity extends AppCompatActivity {
 
     private int titleId;
 
